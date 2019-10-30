@@ -44,6 +44,18 @@ Now that you have cloned the repo:
 
 4. Run project
 
+```Articles Lists```
+![Articles Lists](https://user-images.githubusercontent.com/5834714/67857818-2be66700-fb31-11e9-80ce-a1cab371dad7.jpg)
+
+```Article Details```
+![Article Detail](https://user-images.githubusercontent.com/5834714/67857867-46204500-fb31-11e9-8a3c-9c6253f8c7fa.jpg)
+
+```Search by text```
+![Search by text](https://user-images.githubusercontent.com/5834714/67857899-5f28f600-fb31-11e9-9243-b7c0bb4a3160.jpg)
+
+```Filter by Period```
+![Filter by period](https://user-images.githubusercontent.com/5834714/67857906-62bc7d00-fb31-11e9-80f7-6da9ba03fdbe.jpg)
+
 ## Dependences
 
 1. Retrofit https://github.com/square/retrofit
