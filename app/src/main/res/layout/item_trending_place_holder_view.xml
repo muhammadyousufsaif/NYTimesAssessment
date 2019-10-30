@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable name="item" type="String" />
+        <variable name="name" type="String"  />
+        <variable name="author" type="String"  />
+        <variable name="imgUrl" type="String"  />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:minHeight="70dp"
+        android:layout_marginBottom="1dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:id="@+id/itemRootView"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"
+                android:id="@+id/profileImg"
+                android:scaleType="centerCrop"
+                android:src="@color/shimar_background"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <LinearLayout
+
+                android:background="@android:color/transparent"
+                android:paddingEnd="5dp"
+                android:paddingStart="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/profileImg"
+                android:orientation="vertical"
+                android:minHeight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/shape_shimmer_view" />
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/shape_shimmer_view" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
