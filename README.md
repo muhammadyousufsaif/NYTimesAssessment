@@ -1,4 +1,4 @@
-# NYTimes Popular Articles Mobile App for Android Devices
+# NYTimes Popular Articles
 
 This app developed to show NY Times popular articles on Android devices using NYTimes Polpular Articles API.
 
@@ -18,7 +18,7 @@ This app developed to show NY Times popular articles on Android devices using NY
 As usual, you get started by cloning the project to your local machine:
 
 ```
-$ git://github.com/Applicasa/Sample-App---Android.git
+$ https://github.com/muhammadyousufsaif/NYTimesAssessment.git
 ```
 
 ## Prerequisites
