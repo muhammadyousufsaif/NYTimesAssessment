@@ -44,4 +44,10 @@ Now that you have cloned the repo:
 
 4. Run project
 
+## Dependences
+
+1. Retrofit https://github.com/square/retrofit
+2. OkHttp https://square.github.io/okhttp/
+3. Shimmer (list item loading) https://github.com/facebook/shimmer-android
+4. Glide (Lazy loading photos) https://github.com/bumptech/glide
 
